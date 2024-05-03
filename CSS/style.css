@@ -1,0 +1,39 @@
+body{
+    background: #FFBB70;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    min-height: 100vh;
+}
+.main_box .box1{
+    width: 250px;
+    height: 100px;
+    background: #FFFBDA;
+    line-height: 100px;
+    padding-left: 35px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.main_box .box1 .input{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 10px;
+    text-align: center;
+}
+.main_box .box1 .button{
+    border-radius: 10px;
+}
+.main_box .box1 .button:active{
+    background:#FFBB70;
+    color: #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.main_box .box2{
+    width: 270px;
+    background: #FFFBDA;
+    border-radius: 10px ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
